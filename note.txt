@@ -1,0 +1,16 @@
+~/.vim/ 
+
+is the directory this is copied to
+
+
+installation process is as follows
+
+1.) download nvimInit from github and clone to user created repository at ~/.config/nvim/
+2.) install vimPlug through downloading this repo to ~/.vim/
+3.) launch nvim and type :PlugInstall to install all plugins. 
+
+4.) if you want to install coc, run :cocInstall clangd and then :coccommand: to install the server
+
+5.) launch a file of type .c or .cpp and run :LspInstall
+
+
